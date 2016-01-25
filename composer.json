@@ -1,0 +1,25 @@
+{
+    "name": "zrgisa/new-relic-bundle",
+    "description": "This logs Symfony errors to New Relic.",
+    "type": "symfony-bundle",
+    "keywords": ["logging", "exceptions", "newrelic"],
+    "homepage": "https://github.com/Zrgisa/NewRelicBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergej Grivocv",
+            "email": "zrgirox@gmail.com"
+        },
+        {
+          "name": "Milos Colakovic",
+          "email": "briareos@github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1",
+        "symfony/symfony": ">=2.6"
+    },
+    "autoload": {
+        "psr-4": { "Zrgisa\\NewRelicBundle\\": "." }
+    }
+}
