@@ -7,7 +7,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 use Symfony\Component\Config\FileLocator;
 
-class NewRelicExtension extends Extension
+class ZrgisaNewRelicExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
